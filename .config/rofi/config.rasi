@@ -1,9 +1,0 @@
-configuration {
-    modi: "drun,run,window";
-    show-icons: true;
-    run-command: "{cmd}";
-    terminal: "kitty";
-    theme: "~/.config/rofi/themes/default.rasi";
-    scroll-method: "default";
-}
-
