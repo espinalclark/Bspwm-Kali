@@ -2,7 +2,8 @@
 
 *Este proyecto contiene mi entorno gráfico completo basado en **BSPWM** para Kali Linux.*
 
-![previa](assets/bspwm.jpeg)
+![previa](assets/menu.jpeg)
+![menu](assets/bspwm.jpeg)
 
 ## Instalacion 
 ```bash
