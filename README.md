@@ -12,3 +12,4 @@ cd Bspwm-Kali
 chmod +x setup.sh
 ./setup.sh
 ```
+cl4rksec 
