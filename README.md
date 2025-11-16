@@ -1,2 +1,1 @@
-# Bspwm-Kali
-mi entorno grafico 
+# ＢＳＰＷＭ  ＫＡＬＩ
