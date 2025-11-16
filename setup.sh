@@ -1,6 +1,5 @@
 #!/usr/bin/bash
-# Author: Galileo Muñoz (aka @Gamuke)
-
+# Author: cl4rksec
 # Colours
 greenColour="\e[0;32m\033[1m"
 endColour="\033[0m\e[0m"
@@ -32,7 +31,7 @@ function banner(){
 	sleep 0.05
 	echo -e "/ /_/ // /_/ // /_ / /_/ /     _  /_/ /(__  )__  /_/ /_ |/ |/ /_  / / / / /"
 	sleep 0.05
-	echo -e "\__,_/ \__,_/ \__/ \____/      /_.___//____/ _  .___/____/|__/ /_/ /_/ /_/    ${endColour}${yellowColour}(${endColour}${grayColour}By ${endColour}${purpleColour}@Gamuke${endColour}${yellowColour})${endColour}${turquoiseColour}"
+	echo -e "\__,_/ \__,_/ \__/ \____/      /_.___//____/ _  .___/____/|__/ /_/ /_/ /_/    ${endColour}${yellowColour}(${endColour}${grayColour}@cl4rk ${endColour}${purpleColour}@sec${endColour}${yellowColour})${endColour}${turquoiseColour}"
 	sleep 0.05
     	echo -e "                                             /_/${endColour}"
 }
@@ -241,19 +240,7 @@ else
 	sudo chmod +x /usr/local/bin/backgrounds
 	echo -e "\n${greenColour}[+] Done\n${endColour}"
 	sleep 1.5
-	# esta linea es una modificacion del script themes actualmente no es necesaria
-	# sudo wal -nqi ~/Wallpapers/Arcane.jpg
-
-
-	# este pedazo de codigo es para configurar el grub con un tema personalizado, actualmente no esta en fncionamiento. se agregara esta opcion en un futuro
-#	echo -e "\n${purpleColour}[*] Configuring grub...\n${endColour}"
-#	sleep 2
-#	sudo rm -rf /boot/grub/themes/kali 
-#	sudo cp -rv $dir/kali /boot/grub/themes/
-#	sudo update-grub 
-#	echo -e "\n${greenColour}[+] Done\n${endColour}"
-#	sleep 2
-
+	
 	echo -e "\n${purpleColour}[*] Configuring configuration files...\n${endColour}"
 	sleep 2
 	cp -rv $dir/config/* ~/.config/
