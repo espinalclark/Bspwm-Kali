@@ -10,4 +10,5 @@
 git clone https://github.com/espinalclark/Bspwm-Kali.git
 cd Bspwm-Kali
 chmod +x setup.sh
+./setup.sh
 ```
