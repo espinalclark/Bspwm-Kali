@@ -7,7 +7,7 @@
 ![extra2](assets/extra2.jpeg)
 
 ## Menu
-![menu](assets/menu.jpeg
+![menu](assets/menu.jpeg)
 
 ## Wallpapers
 ![wallpaper1](assets/wallpaper1.jpeg)
