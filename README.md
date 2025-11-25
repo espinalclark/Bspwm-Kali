@@ -219,3 +219,5 @@ ctrl + Print → Captura guiada (flameshot)
 - dar permisos de ejecucion  a los scripts de bin
 - poner alias a los scripts en .zshrc
 
+## Find
+
